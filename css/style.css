@@ -1,88 +1,48 @@
-*{
-  margin: 0;
-  padding: 0;
-  font-family: "Poppins", sans-serif;
-}
-
 body {
-  margin: 0;
-  padding: 0;
-  background-color: rgb(255, 255, 255);
+    background-color: #3498db;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.navbar nav {
-  background-color: rgb(52, 155, 183);
-  margin: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: sticky;
-  top: 0;
-  z-index: 100;
+form {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.navbar h1 {
-  font-weight: 200;
-  font-size: 24px;
-  line-height: 80px;
-  letter-spacing: 0.02em;
-  color: #ffffff;
+input[type=number] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
 }
 
-.navbar ul {
-  display: flex;
-  list-style: none;
-  margin: 20px 0px 20px 0px;
-  gap: 20px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #f0ebeb;
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
 }
 
-.navbar ul li a {
-  text-decoration: none;
-  color: #f9f5f5;
-  transition: 0.2s;
+button {
+    background-color: #2ecc71;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-.navbar ul li a:hover {
-  color: #7c7d89;
+button:hover {
+    background-color: #1abc9c;
 }
 
-.hero {
-  margin: 20px;
-}
-
-.hero h1 {
-  text-align: center;
-  font-weight: 200;
-  font-size: 44px;
-  line-height: 80px;
-  letter-spacing: 0.02em;
-  color: #000000;
-}
-
-.hero p {
-  text-align: justify;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #000000;
-}
-.footer {
-  margin: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #000000;
-  text-align: center;
-  padding: 10px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #f0ebeb;
+#hasil {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
 }
